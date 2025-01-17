@@ -13,6 +13,7 @@ appdirs
 argparse
 asgiref
 asyncio
+asyncio-dgram
 attrs
 beautifulsoup4
 certifi
@@ -25,6 +26,7 @@ construct
 contourpy
 cycler
 dearpygui
+dnspython
 docopt
 fonttools
 h11
@@ -38,12 +40,16 @@ kiwisolver
 lazy-loader
 lxml
 matplotlib
+mcstatus
 networkx
 np
 numpy
 opencv-python
 outcome
 packaging
+panda3d
+panda3d-gltf
+panda3d-simplepbr
 pefile
 pillow
 pip
@@ -71,6 +77,7 @@ qrcode
 requests
 sbp
 scipy
+screeninfo
 selenium
 setuptools
 six
@@ -84,10 +91,12 @@ tifffile
 tqdm
 trio
 trio-websocket
+ttkbootstrap
 typing-extensions
 tzdata
 uncompyle6
 urllib3
+ursina
 websocket-client
 websockets
 wsproto
