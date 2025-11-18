@@ -1,9 +1,9 @@
 # Python Transfer
 
 > [!NOTE]  
-> \[RU\] Простая утилита на питоне для сохранения списка библиотек, загрузки их из списка и автоматического обновления.
+> \[RU\] Простой скрипт на питоне для сохранения списка библиотек, загрузки их из списка и автоматического обновления.
 > 
-> \[EN\] A simple python utility to save a list of libraries, download them from the list and update them automatically.
+> \[EN\] A simple python script to save a list of libraries, download them from the list, and update them automatically.
 
 - **create_list_packages.py** - Сохраняет в save_packages.txt список установленных модулей.
 
