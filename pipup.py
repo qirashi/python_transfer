@@ -1,10 +1,7 @@
 import subprocess as sbp
-import pip
-import os
+import json
 
-pkgs = eval(str(sbp.run("pip3 list -o --format=json", shell=True,
-                         stdout=sbp.PIPE).stdout, encoding='utf-8'))
-for pkg in pkgs:
-    sbp.run("pip3 install --upgrade " + pkg['name'], shell=True)
+for pkg in json.loads(sbp.run(["pip", "list", "-o", "--format=json"], capture_output=True, text=True).stdout):
+    sbp.run(["pip", "install", "-U", pkg['name']])
 
-os.system('python -m pip install --upgrade pip')
+sbp.run(["python", "-m", "pip", "install", "-U", "pip"])
