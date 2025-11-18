@@ -5,8 +5,8 @@
 > 
 > \[EN\] A simple python utility to save a list of libraries, download them from the list and update them automatically.
 
-- **pt_save_packages.py** - Сохраняет в installed_packages.txt список всех установленных модулей.
+- **create_list_packages.py** - Сохраняет в save_packages.txt список установленных модулей.
 
-- **pt_load_packages.py** - Загружает из installed_packages.txt список всех установленных модулей и устанавливает их.
+- **load_list_packages.py** - Загружает из save_packages.txt список установленных модулей и устанавливает их.
 
-- **pt_updater.py** - Проходится по всем установленным модулям и проверяет на них наличие обновлений.
+- **pipup.py** - Обновляет все установленные модули.
